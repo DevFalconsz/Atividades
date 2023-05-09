@@ -5,10 +5,7 @@
 
 int main(){
 
-	int number_a;
-	int number_b;
-	int verificacao;
-	int maior, menor;
+	int number_a, number_b, verificacao, maior, menor;
 
 	printf("Digite o primeiro fator: ");
 	scanf("%d", &number_a);

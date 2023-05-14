@@ -52,7 +52,7 @@ int main(){
         media_altura_mulheres = soma_altura_mulheres / num_mulheres;
     }
 
-	/?Resultados finais mostrados na tela
+	//Resultados finais mostrados na tela
     printf("Menor altura do grupo: %.2f metros\n", menor_altura);
     printf("Média de altura das mulheres: %.2f metros\n", media_altura_mulheres);
     printf("Número de homens: %d\n", num_homens);

@@ -40,13 +40,13 @@ int main(){
 	    printf("\n");
 	}
 		
-		//Cálculos finais
-	    float porcentagemFemininoSim = (float) pessoasFemininoSim / totalEntrevistados * 100;
-	    float porcentagemMasculinoNao = (float) pessoasMasculinoNao / totalEntrevistados * 100;
+	//Cálculos finais
+	float porcentagemFemininoSim = (float) pessoasFemininoSim / totalEntrevistados * 100;
+	float porcentagemMasculinoNao = (float) pessoasMasculinoNao / totalEntrevistados * 100;
 	
-		//Resultados finais na tela
-	    printf("Número de pessoas que responderam sim: %d\n", pessoasSim);
-	    printf("Número de pessoas que responderam não: %d\n", pessoasNao);
-	    printf("Porcentagem de pessoas do sexo feminino que responderam sim: %.2f%%\n", porcentagemFemininoSim);
-	    printf("Porcentagem de pessoas do sexo masculino que responderam não: %.2f%%\n", porcentagemMasculinoNao);
+	//Resultados finais na tela
+	printf("Número de pessoas que responderam sim: %d\n", pessoasSim);
+	printf("Número de pessoas que responderam não: %d\n", pessoasNao);
+	printf("Porcentagem de pessoas do sexo feminino que responderam sim: %.2f%%\n", porcentagemFemininoSim);
+	printf("Porcentagem de pessoas do sexo masculino que responderam não: %.2f%%\n", porcentagemMasculinoNao);
 }

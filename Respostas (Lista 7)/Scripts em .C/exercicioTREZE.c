@@ -1,4 +1,4 @@
-// exercicio 13
+//exercicio 13
 
 #include <stdio.h>
 #include <math.h>
@@ -7,8 +7,8 @@ int main() {
 
 	//Declaração de variáveis para números enormes e evitando estourar o limite
     int total_quadros = 64;
-    unsigned long long int soma_graos = 0;
-    unsigned long long int graos_quadro = 1;
+    double soma_graos = 0;
+    double graos_quadro = 1;
 
 	//Laço de repetição para calcular os grãos (fórmula simplificada)
     for (int n = 0; n < total_quadros; n++) {
@@ -17,7 +17,7 @@ int main() {
     }
 
 	//Exibindo resultado final
-    printf("O número de grãos de milho que podem ser colocados no tabuleiro de xadrez é: %lld\n", soma_graos);
+    printf("O número de grãos de milho que podem ser colocados no tabuleiro de xadrez é: %.0f\n", soma_graos);
 
     return 0;
 }

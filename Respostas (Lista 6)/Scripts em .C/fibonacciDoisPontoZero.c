@@ -13,17 +13,17 @@ int main(){
     printf("Digite quantos termos da sequence de fibonacci deve aparecer: ");
     scanf("%d", &n);
 	
-	/?Exibindo o primeiro termo separado
-    printf("%d\n", primeiro); 
+	//Exibindo o primeiro termo separado
+    	printf("%d\n", primeiro); 
 
 	//Laço de repetição para msotrar todos da sequência
-    for (int i = 1; i < n; i++) {
-        printf("%d\n", segundo);
+	    for (int i = 1; i < n; i++) {
+		printf("%d\n", segundo);
 
-        proximo = primeiro + segundo;
-        primeiro = segundo;
-        segundo = proximo;
-    }
+		proximo = primeiro + segundo;
+		primeiro = segundo;
+		segundo = proximo;
+	    }
 	
 	return 0;
 }
